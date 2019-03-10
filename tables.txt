@@ -1,0 +1,113 @@
+CREATE  TABLE customer (
+  `name` VARCHAR(45) NOT NULL ,
+  `address` VARCHAR(60) NOT NULL ,
+  `ph` VARCHAR(45) NOT NULL ,
+  `email` VARCHAR(45) NOT NULL ,
+  `city` VARCHAR(45) NOT NULL ,
+  `date` VARCHAR(45) NOT NULL ,
+  `mobile` VARCHAR(45) NOT NULL ,
+  `price` VARCHAR(45) NOT NULL );
+
+
+
+CREATE TABLE data_plans (
+  `plan_no` varchar(12) NOT NULL,
+  `plan_name` varchar(45) DEFAULT NULL,
+  `validity` varchar(45) DEFAULT NULL,
+  `data_usage` varchar(45) DEFAULT NULL,
+  `speed` varchar(45) DEFAULT NULL,
+  `charges` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`plan_no`));
+
+
+CREATE TABLE internet_order (
+  `first_name` varchar(45) DEFAULT NULL,
+  `last_name` varchar(45) DEFAULT NULL,
+  `street` varchar(45) DEFAULT NULL,
+  `city` varchar(45) DEFAULT NULL,
+  `state` varchar(45) DEFAULT NULL,
+  `zip_code` varchar(31) DEFAULT NULL,
+  `phone` varchar(30) DEFAULT NULL,
+  `credit_no` varchar(50) DEFAULT NULL,
+  `expiry` varchar(45) DEFAULT NULL,
+  `expiry2` varchar(45) DEFAULT NULL );
+
+
+CREATE TABLE new_subscribe (
+  `form_id` varchar(10) NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `phone` varchar(45) DEFAULT NULL,
+  `dob` varchar(45) DEFAULT NULL,
+  `gender` varchar(45) DEFAULT NULL,
+  `nationality` varchar(45) DEFAULT NULL,
+  `proofs` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`form_id`)
+);
+
+
+
+
+CREATE TABLE login_internet (
+  `user_name` varchar(30) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  PRIMARY KEY (`user_name`)
+);
+
+
+CREATE  TABLE feedback3 (
+  `feedback` VARCHAR(45) NOT NULL ,
+  `feedback2` VARCHAR(45) NOT NULL ,
+  `name` VARCHAR(45) NULL ,
+  `address` VARCHAR(45) NULL ,
+  `email` VARCHAR(45) NULL ,
+  `phone` VARCHAR(45) NULL ,
+  `comments` VARCHAR(200) NULL );
+
+
+CREATE  TABLE detail (
+  `id` INT(10) UNSIGNED NOT NULL ,
+  `pn` VARCHAR(45) NOT NULL ,
+  `cam` VARCHAR(45) NOT NULL );
+
+
+
+CREATE TABLE feedback (
+  `name` varchar(45) NOT NULL,
+  `feed` varchar(150) NOT NULL
+) ;
+
+
+CREATE  TABLE main (
+  `id` INT(10) UNSIGNED NOT NULL ,
+  `brand` VARCHAR(45) NOT NULL ,
+  `pname` VARCHAR(45) NOT NULL ,
+  `os` VARCHAR(45) NOT NULL ,
+  `camera` VARCHAR(45) NOT NULL ,
+  `stock` VARCHAR(45) NOT NULL ,
+  `cost` VARCHAR(45) NOT NULL ,
+  `size` VARCHAR(45) NOT NULL ,
+  `colour` VARCHAR(45) NOT NULL ,
+  `processor` VARCHAR(45) NOT NULL ,
+  `memory` VARCHAR(45) NOT NULL ,
+  `RAM` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id`) );
+
+
+
+CREATE  TABLE temp (
+  `id` VARCHAR(45) NOT NULL );
+
+
+
+CREATE  TABLE temp2 (
+  `name` VARCHAR(45) NOT NULL ,
+  `cost` VARCHAR(45) NOT NULL );
+
+
+
+CREATE TABLE log (
+  `name` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL
+);
