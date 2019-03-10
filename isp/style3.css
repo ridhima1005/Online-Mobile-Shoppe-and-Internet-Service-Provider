@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	text-align: center;
+	background-color: #B0C4DE;
+}
+
+.strong
+{
+	font-weight: strong;
+}
+
+.bigFont
+{
+	font-family: helvetica, arial, sans-serif;
+	font-weight: strong;
+	font-size: 2em;
+	color: #00008B;
+}
+
+.em
+{
+	font-style: em;
+}
+
+.right
+{
+	text-align: right;
+}
+
+table, th, td 
+{ 
+	border: 3px groove;
+	padding: 5px;
+}
+
+table
+{
+	background-color: #6495ed;
+	margin-left: auto;
+	margin-right: auto;
+}

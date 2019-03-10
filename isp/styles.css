@@ -1,0 +1,82 @@
+@CHARSET "ISO-8859-1";
+
+BODY
+{
+}
+.menuBar
+{
+    POSITION: relative;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: center
+}
+.Bar
+{
+    BORDER-RIGHT: #AAAAAA 2px outset;
+    BORDER-TOP: #AAAAAA 2px outset;
+    FLOAT: left;
+    BORDER-LEFT: #AAAAAA 2px outset;
+    WIDTH: 150px;
+    CURSOR: hand;
+    TEXT-INDENT: 5px;
+    BORDER-BOTTOM: #AAAAAA 2px outset;
+    POSITION: relative;
+    BACKGROUND-COLOR: #AAAAAA;
+    TEXT-ALIGN: center
+}
+.menu
+{
+    BORDER-RIGHT: buttonhighlight thin outset;
+    BORDER-TOP: buttonhighlight thin outset;
+    VISIBILITY: hidden;
+    BORDER-LEFT: buttonhighlight thin outset;
+    WIDTH: 150px;
+    LINE-HEIGHT: 140%;
+    BORDER-BOTTOM: buttonhighlight thin outset;
+    POSITION: absolute;
+    BACKGROUND-COLOR: #AAAAAA 
+}
+.menuItem
+{
+    PADDING-RIGHT: 15px;
+    PADDING-LEFT: 10px;
+    WIDTH: 100%;
+    CURSOR: hand;
+    LINE-HEIGHT: 20px;
+    BORDER-BOTTOM: white 1px solid
+}
+.ItemMouseOver
+{
+    PADDING-RIGHT: 4px;
+    PADDING-LEFT: 4px;
+    WIDTH: 100%;
+    CURSOR: hand;
+    COLOR: highlighttext;
+    LINE-HEIGHT: 20px;
+    BORDER-BOTTOM: white 1px solid;
+    BACKGROUND-COLOR: highlight
+}
+.ItemMouseOut
+{
+    WIDTH: 100%
+}
+.Arrow
+{
+    FLOAT: right;
+    FONT-FAMILY: Webdings;
+    POSITION: absolute;
+    TEXT-ALIGN: left
+}
+.barOver
+{
+    BORDER-RIGHT: #AAAAAA 1px ridge;
+    BORDER-TOP: #AAAAAA 1px ridge;
+    FLOAT: left;
+    BORDER-LEFT: #AAAAAA 1px ridge;
+    WIDTH: 100px;
+    CURSOR: hand;
+    TEXT-INDENT: 5px;
+    BORDER-BOTTOM: #AAAAAA 1px ridge;
+    POSITION: relative;
+    BACKGROUND-COLOR: #AAAAAA 
+    TEXT-ALIGN: center
+}
